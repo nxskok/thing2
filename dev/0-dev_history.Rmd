@@ -24,7 +24,7 @@ fusen::fill_description(
   )
 )
 # Define License with use_*_license()
-usethis::use_gpl_license("Ken Butler", version = 3)
+usethis::use_gpl3_license("Ken Butler")
 ```
 
 # All-in-one function to deploy publicly on GitHub
