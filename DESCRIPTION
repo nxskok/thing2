@@ -1,0 +1,13 @@
+Package: thing2
+Version: 0.0.0.9000
+Title: Process and Analyze Cortisol Data
+Description: Reformat and analyze cortisol data from Devore.
+Authors@R: person(given = "Ken",
+       family = "Butler",
+       role = c("aut", "cre"),
+       email = "ken@swiss-soccer.net",
+       comment = c(ORCID = "0000-0001-7821-6811"))
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
