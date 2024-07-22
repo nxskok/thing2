@@ -40,6 +40,7 @@ functions
 
 ```{r}
 use_r("functions.R")
+use_r("data.R")
 ```
 
 reload
@@ -60,5 +61,12 @@ run_welch(x)
 
 ```{r}
 ?read_raw
+```
+
+add datafile to package
+
+```{r}
+births <- read_raw()
+use_data(births)
 ```
 
