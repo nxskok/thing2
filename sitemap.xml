@@ -4,9 +4,11 @@
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
 <url><loc>/news/index.html</loc></url>
+<url><loc>/reference/draw_boxplot.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
 <url><loc>/reference/pipe.html</loc></url>
 <url><loc>/reference/read_raw.html</loc></url>
+<url><loc>/reference/run_welch.html</loc></url>
 <url><loc>/reference/thing2-package.html</loc></url>
 </urlset>
 
