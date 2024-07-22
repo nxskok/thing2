@@ -5,3 +5,4 @@
 ^LICENSE\.md$
 ^thing2\.Rproj$
 ^\.Rproj\.user$
+^data-raw$

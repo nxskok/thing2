@@ -1,0 +1,57 @@
+---
+title: "notes"
+format: html
+---
+
+for creating package
+
+```{r}
+use_agpl3_license()
+```
+
+```{r}
+use_git()
+use_github() # not actually needed here
+```
+
+```{r}
+use_namespace()
+use_pipe()
+use_package_doc()
+```
+
+import stuff
+
+```{r}
+use_import_from("readr", "read_csv")
+use_import_from("tidyr", "pivot_longer")
+use_import_from("tibble", "tribble")
+use_import_from("dplyr", "select")
+use_import_from("dplyr", "left_join")
+use_import_from("dplyr", "join_by")
+```
+
+
+functions
+
+```{r}
+use_r("functions.R")
+```
+
+reload
+
+```{r}
+load_all()
+document()
+```
+
+testing
+
+```{r}
+read_raw()
+```
+
+```{r}
+?read_raw
+```
+
