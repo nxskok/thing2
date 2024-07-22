@@ -29,6 +29,10 @@ use_import_from("tibble", "tribble")
 use_import_from("dplyr", "select")
 use_import_from("dplyr", "left_join")
 use_import_from("dplyr", "join_by")
+use_import_from("ggplot2", "ggplot")
+use_import_from("ggplot2", "aes")
+use_import_from("ggplot2", "geom_boxplot")
+use_import_from("PMCMRplus", "gamesHowellTest")
 ```
 
 
@@ -48,7 +52,10 @@ document()
 testing
 
 ```{r}
-read_raw()
+x <- read_raw()
+# x
+# draw_boxplot(x)
+run_welch(x)
 ```
 
 ```{r}
