@@ -16,8 +16,6 @@ knitr::opts_chunk$set(
 # thing2
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/nxskok/thing2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nxskok/thing2/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/nxskok/thing2/branch/main/graph/badge.svg)](https://app.codecov.io/gh/nxskok/thing2?branch=main)
 <!-- badges: end -->
 
 The goal of thing2 is to ...
@@ -30,10 +28,6 @@ You can install the development version of thing2 from [GitHub](https://github.c
 # install.packages("devtools")
 devtools::install_github("nxskok/thing2")
 ```
-
-## Documentation
-
-Full documentation website on: https://git@github.com:nxskok/thing2.github.io/git@github.com:nxskok/thing2
 
 ## Example
 

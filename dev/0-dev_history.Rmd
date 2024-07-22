@@ -21,10 +21,11 @@ fusen::fill_description(
     `Authors@R` = c(
       person("Ken", "Butler", email = "ken@swiss-soccer.net", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7821-6811"))
     )
-  )
+  ),
+  overwrite = TRUE
 )
 # Define License with use_*_license()
-usethis::use_gpl3_license("Ken Butler")
+usethis::use_gpl3_license()
 ```
 
 # All-in-one function to deploy publicly on GitHub
@@ -124,5 +125,17 @@ devtools::build(vignettes = TRUE)
 # usethis::create_github_token()
 # gitcreds::gitcreds_set()
 fusen::init_share_on_github()
+```
+
+# ken adds
+
+make the dataset and put it in inst
+
+```{r}
+library(tidyverse)
+library(Devore7)
+data("ex15.25")
+births <- ex15.25
+write_csv(births, here::here("inst", "births.csv"))
 ```
 

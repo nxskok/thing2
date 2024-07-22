@@ -10,7 +10,7 @@ editor_options:
 
 ```{r development, include=FALSE}
 library(testthat)
-```
+us```
 
 <!--
  You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
