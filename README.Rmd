@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of thing2 is to ...
+The goal of thing2 is to illustrate that a tiny analysis can be made into a package.
 
 ## Installation
 
