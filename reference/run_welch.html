@@ -63,6 +63,32 @@
     <p>the output from Welch ANOVA plus Games-Howell test (in a <code>list</code>)</p>
     </div>
 
+    <div id="ref-examples">
+    <h2>Examples</h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">run_welch</span><span class="op">(</span><span class="va">births</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [[1]]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 	One-way analysis of means (not assuming equal variances)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> data:  cortisol and type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> F = 8.7808, num df = 2.000, denom df = 9.815, p-value = 0.006513</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [[2]]</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> 	Pairwise comparisons using Games-Howell test</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> data: cortisol by factor(type)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>       c_emerg c_pre </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> c_pre 0.0061  -     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> spont 0.3109  0.0913</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> P value adjustment method: none</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> alternative hypothesis: two.sided</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span></span></span>
+</code></pre></div>
+    </div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top"><h2 data-toc-skip>Contents</h2>
