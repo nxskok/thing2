@@ -33,6 +33,7 @@ use_import_from("ggplot2", "ggplot")
 use_import_from("ggplot2", "aes")
 use_import_from("ggplot2", "geom_boxplot")
 use_import_from("PMCMRplus", "gamesHowellTest")
+use_import_from("stats", "oneway.test")
 ```
 
 
@@ -68,5 +69,9 @@ add datafile to package
 ```{r}
 births <- read_raw()
 use_data(births)
+```
+
+```{r}
+use_news_md()
 ```
 

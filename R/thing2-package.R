@@ -10,6 +10,7 @@
 #' @importFrom ggplot2 ggplot
 #' @importFrom PMCMRplus gamesHowellTest
 #' @importFrom readr read_csv
+#' @importFrom stats oneway.test
 #' @importFrom tibble tribble
 #' @importFrom tidyr pivot_longer
 ## usethis namespace: end

@@ -15,3 +15,8 @@ the output from Welch ANOVA plus Games-Howell test (in a \code{list})
 \description{
 Run Welch ANOVA (not assuming equal variances) on a dataframe with columns called \code{type} and \code{cortisol}
 }
+\examples{
+run_welch(births)
+
+
+}

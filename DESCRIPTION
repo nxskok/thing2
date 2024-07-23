@@ -15,6 +15,7 @@ Imports:
     magrittr,
     PMCMRplus,
     readr,
+    stats,
     tibble,
     tidyr
 Depends: 

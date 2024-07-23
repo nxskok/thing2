@@ -32,6 +32,9 @@ read_raw <- function(my_url = "http://ritsokiguess.site/datafiles/births_wide.cs
 #' @param x input dataframe with the required columns
 #' @return a boxplot from ggplot
 #' @export
+#' @examples
+#' draw_boxplot(births)
+#'
 #'
 #'
 draw_boxplot <- function(x) {
@@ -46,6 +49,9 @@ draw_boxplot <- function(x) {
 #' @param x input dataframe with required columns
 #' @return the output from Welch ANOVA plus Games-Howell test (in a `list`)
 #' @export
+#' @examples
+#' run_welch(births)
+#'
 #'
 run_welch <- function(x) {
   ans1 <- oneway.test(cortisol ~ type, data = x)

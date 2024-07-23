@@ -15,3 +15,9 @@ a boxplot from ggplot
 \description{
 Draw a boxplot of a dataframe with columns called \code{type} and \code{cortisol}
 }
+\examples{
+draw_boxplot(births)
+
+
+
+}

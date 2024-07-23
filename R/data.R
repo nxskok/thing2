@@ -17,3 +17,4 @@
 #' \item{type}{Type of birth: spontaneous, planned cesarean section, emergency cesarean section}
 #' }
 #' @source Devore, 7th edition, Exercise 15.25 (description text taken from source).
+"births"
