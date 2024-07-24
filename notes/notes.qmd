@@ -44,11 +44,13 @@ functions
 use_r("functions.R")
 use_r("data.R")
 use_test("functions")
+use_test("thing")
 ```
 
 reload
 
 ```{r}
+library(devtools)
 load_all()
 document()
 ```
@@ -77,4 +79,5 @@ use_data(births)
 ```{r}
 use_news_md()
 ```
+
 
