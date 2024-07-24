@@ -18,6 +18,7 @@ use_github() # not actually needed here
 use_namespace()
 use_pipe()
 use_package_doc()
+use_testthat(3)
 ```
 
 import stuff
@@ -42,6 +43,7 @@ functions
 ```{r}
 use_r("functions.R")
 use_r("data.R")
+use_test("functions")
 ```
 
 reload
@@ -58,6 +60,7 @@ x <- read_raw()
 # x
 # draw_boxplot(x)
 run_welch(x)
+test_that("tests/testthat/test-test_read_raw.R")
 ```
 
 ```{r}

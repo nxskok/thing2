@@ -58,6 +58,8 @@ births
 The levels of `type` indicate whether the labour was spontaneous (`spont`), whether a Caesarean section was 
 planned before labour started (`c_pre`), or whether an emergency Caesarian section was used to deliver the baby during induced labour (`c_emerg`). Interest in this study was in whether the mother's average cortisol level differed between the three types of birth.
 
+## Making a graph
+
 The function `draw_boxplot`, as the name suggests, draws a boxplot to compare the distributions of cortisol levels between the three groups of mothers:
 
 ```{r}
@@ -68,6 +70,8 @@ The median cortisol levels clearly differ among the three groups. In addition, t
 substantially, with the spontaneous-labour births having much the greatest variability. There are also outliers
 in the `c_pre` group, though one might argue that these appear as outliers
  because of the small variability in the other observations.
+
+## Analysis
 
 The graph reveals that we should not consider
  these two analyses:
@@ -98,5 +102,5 @@ This has a similar significance to the Welch test (with a larger P-value), and i
 pairwise_median_test(births, cortisol, type)
 ```
 
-that is to say, only the two Caesarian groups differ significantly in (now) median.
+that is to say, once again only the two Caesarian groups differ significantly in (now) median.
 
