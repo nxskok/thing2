@@ -3,10 +3,14 @@ test_that("22 rows", {
   expect_equal(x_n, 22)
 })
 
-test_that("right columns", {
+test_that("data has column 'type'", {
   # x_nms is names of columns in read-in dataframe
   ans1 <- ("type" %in% x_nms)
-  ans2 <- ("cortisol" %in% x_nms)
-  ans <- (ans1 & ans2)
-  expect_true(ans)
+  expect_true(ans1)
+})
+
+test_that("data has column 'cortisol'", {
+  # x_nms is names of columns in read-in dataframe
+  ans1 <- ("cortisol" %in% x_nms)
+  expect_true(ans1)
 })
